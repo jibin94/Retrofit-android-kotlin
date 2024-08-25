@@ -26,5 +26,7 @@ In the past, Retrofit relied on the Gson library to serialize and deserialize JS
 ### Changing the base URL
 Normally, the base URL is defined when you instantiated an Retrofit instance. Retrofit 2 allows you to override the base URL specified by changing it in the annotation (i.e. if you need to keep one specific endpoint using an older API endpoint)
 
-    `@POST("https://api.github.com/api/v3")`
+```
+@POST("https://api.github.com/api/v3")
+```
 
